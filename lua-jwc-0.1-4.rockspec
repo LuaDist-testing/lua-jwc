@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-jwc"
-version = "0.1-3"
+version = "0.1-4"
 -- LuaDist source
 source = {
-  tag = "0.1-3",
+  tag = "0.1-4",
   url = "git://github.com/LuaDist-testing/lua-jwc.git"
 }
 -- Original source
