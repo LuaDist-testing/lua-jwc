@@ -1,3 +1,8 @@
+-- Copyright (c) 2016 Kim Alvefur
+--
+-- This project is MIT/X11 licensed. Please see the
+-- COPYING file in the source package for more information.
+--
 -- JSON Web Signatures
 
 local digest = require "openssl.digest";

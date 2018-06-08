@@ -1,3 +1,10 @@
+-- Copyright (c) 2016 Kim Alvefur
+--
+-- This project is MIT/X11 licensed. Please see the
+-- COPYING file in the source package for more information.
+--
+-- Base64 URL en-/decoding
+
 local mime = require "mime";
 
 local b64map = {

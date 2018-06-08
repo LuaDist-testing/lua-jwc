@@ -1,3 +1,10 @@
+-- Copyright (c) 2016 Kim Alvefur
+--
+-- This project is MIT/X11 licensed. Please see the
+-- COPYING file in the source package for more information.
+--
+-- JSON Web Keys
+
 local digest = require "openssl.digest";
 local json = require "cjson";
 local b64url = require "b64url".encode;
