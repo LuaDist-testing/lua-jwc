@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-jwc"
-version = "0.3-2"
+version = "0.3-3"
 -- LuaDist source
 source = {
-  tag = "0.3-2",
+  tag = "0.3-3",
   url = "git://github.com/LuaDist-testing/lua-jwc.git"
 }
 -- Original source
@@ -15,7 +15,7 @@ source = {
 description = {
 	summary = "JSON Web Crypto",
 	homepage = "https://code.zash.se/lua-jwc",
-	license = "MIT/X11"
+	license = "MIT"
 }
 dependencies = {
 	"luaossl", "lua-cjson", "luasocket"
