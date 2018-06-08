@@ -7,7 +7,7 @@
 
 local digest = require "openssl.digest";
 local json = require "cjson";
-local b64url = require "b64url".encode;
+local b64url = require "jwc.b64url".encode;
 
 local function get_public_rsa(key)
 	local key_n, key_e = key:getParameters("n", "e");

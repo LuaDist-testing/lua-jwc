@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-jwc"
-version = "0.2-1"
+version = "0.3-1"
 -- LuaDist source
 source = {
-  tag = "0.2-1",
+  tag = "0.3-1",
   url = "git://github.com/LuaDist-testing/lua-jwc.git"
 }
 -- Original source
 -- source = {
 -- 	url = "hg+http://code.zash.se/lua-jwc/",
--- 	tag = "0.2"
+-- 	tag = "0.3"
 -- }
 description = {
 	summary = "JSON Web Crypto",
@@ -23,8 +23,8 @@ dependencies = {
 build = {
 	type = "builtin",
 	modules = {
-		b64url = "b64url.lua",
-		jwk = "jwk.lua",
-		jws = "jws.lua"
+		["jwc.b64url"] = "b64url.lua",
+		["jwc.jwk"] = "jwk.lua",
+		["jwc.jws"] = "jws.lua"
 	}
 }

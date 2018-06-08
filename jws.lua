@@ -7,8 +7,8 @@
 
 local digest = require "openssl.digest";
 local json = require "cjson";
-local b64url = require "b64url".encode;
-local jwk = require "jwk";
+local b64url = require "jwc.b64url".encode;
+local jwk = require "jwc.jwk";
 
 -- Hash function -> key type -> "alg" parameter
 local hash_key_algorithm_map = {
